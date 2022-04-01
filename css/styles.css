@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #333;
+  background-color: #fff;
   text-align: center;
   margin: 0;
   font-weight: 400;
@@ -11,7 +11,7 @@ body {
   min-height: 100vh;
   display: grid;
   place-items: center;
-  color: #fff;
+  color: #333;
 }
 
 .column_title {
@@ -82,7 +82,7 @@ body {
   text-align: center;
 }
 .attribution a {
-  color: hsl(222, 32%, 68%);
+  color: hsl(222, 68%, 7%);
 }
 
 @media (max-width: 600px) {
