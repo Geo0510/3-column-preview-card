@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL](https://github.com/Geo0510/3-column-preview-card)
-- Live Site URL: [live site URL](https://geo0510.github.io/3-column-preview-card/)
+- Solution URL: [https://github.com/Geo0510/3-column-preview-card]
+- Live Site URL: [https://geo0510.github.io/3-column-preview-card/]
 
 ## My process
 
