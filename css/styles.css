@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+  text-align: center;
+  margin: 0;
+  font-weight: 400;
+  font-family: "Lexend Deca", sans-serif;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  color: #fff;
+}
+
+.column_title {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.column_text {
+  width: 200px;
+}
+
+.columns {
+  font-size: 0;
+}
+
+.column {
+  position: relative;
+  display: inline-block;
+  text-align: left;
+  color: hsl(0 0% 100% / 0.75);
+  width: 300px;
+  height: 500px;
+  padding: 2em;
+  font-size: 1rem;
+}
+
+.column_color-orange {
+  background-color: hsl(31, 77%, 52%);
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.column_color-cyan {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.column_color--Dark-cyan {
+  background-color: hsl(179, 100%, 13%);
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.buttom {
+  position: absolute;
+  bottom: 50px;
+  text-decoration: none;
+  padding: 0.8em 2em;
+  background-color: #fff;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.buttom--orange {
+  color: hsl(31, 77%, 52%);
+}
+
+.buttom--cyan {
+  color: hsl(184, 100%, 22%);
+}
+
+.buttom--dark-cyan {
+  color: hsl(179, 100%, 13%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(222, 32%, 68%);
+}
+
+@media (max-width: 600px) {
+  .column_color-orange {
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 10px;
+  }
+
+  .column_color--Dark-cyan {
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0px;
+  }
+}
+
+@media (min-width: 610px) and (max-width: 900px) {
+  .column_color-orange {
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+
+  .column_color-cyan {
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .column_color--Dark-cyan {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 0px;
+  }
+}
